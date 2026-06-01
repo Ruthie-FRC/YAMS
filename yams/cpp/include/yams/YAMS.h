@@ -3,6 +3,8 @@
 #include <string_view>
 
 #include "yams/mechanisms/SmartMechanism.h"
+#include "yams/mechanisms/positional/SmartPositionalMechanism.h"
+#include "yams/mechanisms/velocity/SmartVelocityMechanism.h"
 #include "yams/motorcontrollers/SmartMotorController.h"
 #include "yams/motorcontrollers/SmartMotorControllerConfig.h"
 #include "yams/telemetry/SmartMotorControllerTelemetry.h"
