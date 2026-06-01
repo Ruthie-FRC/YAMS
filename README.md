@@ -5,6 +5,8 @@
 
 **YAMS** is a WPILib-compatible library that provides a **unified and extensible interface** for common FRC mechanisms like **elevators**, **arms**, and **pivots** (e.g., turrets). It emphasizes clean separation of control, simulation, and configuration, while offering first-class support for **telemetry**, **feedforward**, and **tuning**.
 
+Java is currently the complete implementation. A C++ WPILib port now exists in `yams/cpp` and is being expanded toward full feature parity.
+
 ---
 
 ## Documentation
@@ -36,6 +38,8 @@
    - Paste the URL to the YAMS vendordep JSON file, e.g.:  
      `https://yet-another-software-suite.github.io/YAMS/yams.json`
    - Press Enter to install
+
+The vendordep now includes Java and C++ dependency metadata. C++ API coverage is in progress.
 
 ---
 
@@ -142,4 +146,3 @@ Open an issue for bug reports or feature requests, or fork and open a pull reque
 Inspired by [Manip-Lib](https://github.com/frc5517/Manip-Lib). 
 
 ---
-

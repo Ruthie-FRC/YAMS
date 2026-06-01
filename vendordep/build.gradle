@@ -142,6 +142,19 @@ def systemArch = getCurrentArch()
 
 model {
   components {
+      YAMS(NativeLibrarySpec) {
+          sources {
+              cpp {
+                  source {
+                      srcDir "$rootDir/../yams/cpp/src"
+                      include "**/*.cpp"
+                  }
+                  exportedHeaders {
+                      srcDir "$rootDir/../yams/cpp/include"
+                  }
+              }
+          }
+      }
   }
 }
 
